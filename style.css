@@ -1,0 +1,62 @@
+/* Body Background  */
+body {
+  background: fixed;
+  background-color: magenta;
+  background-image: linear-gradient(black, violet);
+  background-repeat: no-repeat;
+}
+
+/* Kopf der Webseite, mit fonts & colors */
+
+.header {
+  text-align: center;
+  border: 5px none transparent;
+  font-size: x-large;
+  color: purple;
+  background-color: black;
+}
+
+/* Navbar mit optischen/ charakterlichen Spezifikationen  */
+
+nav a {
+  width: 30%;
+  display: flex;
+  color: black;
+  background-color: purple;
+
+  border-radius: 6px;
+  font-family: "Black Ops One";
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  padding: 10px 0px;
+  margin: 0px auto;
+  justify-content: center;
+  letter-spacing: 2.5px;
+
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/* Effekt welcher ausgelöst wird, wenn man mit der Maus über die navbar hovert */
+
+nav a:hover {
+  border-color: yellow;
+  color: yellow;
+  cursor: crosshair;
+  background-image: linear-gradient(black, violet);
+  border-style: outset;
+  transform: translateY(-8px);
+  text-shadow: 0px 5px gray;
+}
+
+
+
+
